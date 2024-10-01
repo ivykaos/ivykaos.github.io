@@ -1,0 +1,28 @@
+<style>
+    table, tr, td, th {
+        border: 1px solid black;
+    }
+</style>
+<table>
+    <Caption>Navigating the grocery store</Caption>
+    <thead>
+        <tr>
+            <td colspan="3"><b>Parts of a grocery store</b></td>
+        </tr>
+    </thead>
+    <tr>
+        <td>bakery</td>
+        <td>deli</td>
+        <td>seafood</td>
+    </tr>
+    <tr>
+        <td>produce</td>
+        <td>freezer section</td>
+        <td>meat department</td>
+    </tr>
+</table>
+<ul>
+    <li>The grocery store has many departments.</li>
+    <li>There are several places where you can find meat in a grocery store.</li>
+    <li>There are at least six departments in a grocery store.</li>
+</ul>
