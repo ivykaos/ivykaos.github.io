@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Imitation</title>
+	</head>
+	<body>
+	</style>
+    /* Penguin image */
+    img{
+      border-radius: 400px;
+      border: 1px solid #000;
+      -webkit-filter: sepia(70%);
+      filter: sepia(70%);
+		}
+
+    /* Tic Tac Toe image */
+    img.tic-tac-toe {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+
+    /* Butterfly image */
+    img.butterfly {
+      border-radius: 100px 100px 100px 0px / 100px 0px 100px 0px;
+      border: 0px solid #000;
+      -webkit-filter: hue-rotate(90deg);
+      filter: hue-rotate(90deg);
+    }
+
+    /* Theater image */
+    img.theater {
+      -webkit-filter: blur(3px);
+      filter: blur(3px);
+    }
+
+    /* Dinosaur image */
+    img.dinosaur {
+      -webkit-filter: drop-shadow(5px 5px 5px #000);
+      filter: drop-shadow(5px 5px 5px #000);
+      -webkit-filter: hue-rotate(90deg);
+      filter: hue-rotate(90deg);
+    }
+
+  /* Seagull div background */
+    div.seagull {
+      height: 200px;
+      background-image: linear-gradient(55deg, #b5b6de, #e9edf1);
+      background-color: #b4b5f0;
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+
+  <img class="penguin" src="path/to/penguins.jpg" alt="Penguins" />
+  <img class="tic-tac-toe" src="path/to/football_field.jpg" alt="Football field" />
+  <img class="butterfly" src="path/to/butterfly.jpg" alt="Butterfly" />
+  <img class="theater" src="path/to/theater_stage.jpg" alt="Theater stage" />
+  <img class="dinosaur" src="path/to/dinosaur.png" alt="Dinosaur" />
+  <div class="seagull"></div>
+  <img src="path/to/seagull.png" alt="Seagull" />
+  </style>
+ </body>
+</html>
